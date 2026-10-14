@@ -1,5 +1,7 @@
-// const {x, calculateSum} = require("./sum.js");
-import {x, Sum} from "./sum.js"
+// const {x, Sum} = require("./sum.js");
+// import {x, Sum} from "./sum.js"
+const {x, calculateSum, calculateMultiply} =  require("./calculate/index")
 
-Sum(10,20)
+calculateSum(10,20)
+calculateMultiply(20,10)
 console.log(x)
